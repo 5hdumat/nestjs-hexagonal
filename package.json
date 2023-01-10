@@ -2,7 +2,9 @@
   "name": "nestjs-hexagonal",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start:nestjs-hexagonal": "nx serve nestjs-hexagonal2"
+  },
   "private": true,
   "dependencies": {
     "@nestjs/common": "^9.0.0",
@@ -26,6 +28,9 @@
     "@types/node": "18.7.1",
     "@typescript-eslint/eslint-plugin": "^5.36.1",
     "@typescript-eslint/parser": "^5.36.1",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "eslint": "~8.15.0",
     "eslint-config-prettier": "8.1.0",
     "jest": "28.1.1",

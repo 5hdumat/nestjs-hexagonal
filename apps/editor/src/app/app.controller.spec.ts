@@ -14,9 +14,9 @@ describe('AppController', () => {
   });
 
   describe('getData', () => {
-    it('should return "Welcome to nestjs-hexagonal!"', () => {
+    it('should return "Welcome to editor!"', () => {
       const appController = app.get<AppController>(AppController);
-      expect(appController.getData()).toEqual({ message: 'Welcome to nestjs-hexagonal!' });
+      expect(appController.getData()).toEqual({ message: 'Welcome to editor!' });
     });
   });
 });

@@ -14,8 +14,8 @@ describe('AppService', () => {
   });
 
   describe('getData', () => {
-    it('should return "Welcome to nestjs-hexagonal!"', () => {
-      expect(service.getData()).toEqual({ message: 'Welcome to nestjs-hexagonal!' });
+    it('should return "Welcome to editor!"', () => {
+      expect(service.getData()).toEqual({ message: 'Welcome to editor!' });
     });
   });
 });
