@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nestjs-hexagonal/editor": ["libs/editor/src/index.ts"],
+      "@nestjs-hexagonal/editor/page": ["libs/editor/page/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

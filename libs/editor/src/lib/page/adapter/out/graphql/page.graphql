@@ -1,0 +1,18 @@
+type Page {
+  id: ID!
+  name: String!
+  slug: String!
+}
+
+input AddPageInput {
+  styleId: String!
+  pageTemplateId: String
+}
+
+type Query {
+  page(pageId: String!): Page!
+}
+
+type Mutation {
+  addPage(input: AddPageInput!): Page!
+}

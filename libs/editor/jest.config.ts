@@ -1,7 +1,7 @@
 /* eslint-disable */
 export default {
-  displayName: 'editor-page',
-  preset: '../../../jest.preset.js',
+  displayName: 'editor',
+  preset: '../../jest.preset.js',
   globals: {
     'ts-jest': {
       tsconfig: '<rootDir>/tsconfig.spec.json',
@@ -12,5 +12,5 @@ export default {
     '^.+\\.[tj]s$': 'ts-jest',
   },
   moduleFileExtensions: ['ts', 'js', 'html'],
-  coverageDirectory: '../../../coverage/libs/editor/page',
+  coverageDirectory: '../../coverage/libs/editor',
 };
